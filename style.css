@@ -37,8 +37,96 @@
 }
 button{
     background-color: #3882F6;
+    color: #E5E7EB;
     font-size: 20px;
     border: none;
     border-radius: 8px;
     padding: 15px 32px;
 }
+/* Image Container */
+img{
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.random-images{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.img-container strong{
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.rimages{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption{
+    display: block;
+}
+
+/* Quote Section */
+
+.quote{
+    background-color: #E5E7EB;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    margin-top: 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 70px;
+    padding-left: 100px;
+    /* padding-right: 50px; */
+    padding-bottom: 60px;
+}
+
+.thor{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 200px;
+}
+
+
+/* CTA */
+
+.cta{
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left:450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.cta .main{
+    color: #E5E7EB;
+    font-size: 15px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+
+.main h3{
+    font-size: 24px;
+}
+
+.last-button{
+    padding-left: 700px;
+    margin-top: -100px;
+} 
+
